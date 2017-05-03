@@ -1,0 +1,43 @@
+.container, .App, #root, body, html {
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.duration-slider {
+  display: grid;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.frame {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+
+.quote {
+  font-size: 70px;
+  margin: 25px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.author {
+  font-size: 25px;
+}
